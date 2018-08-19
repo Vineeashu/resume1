@@ -1,0 +1,46 @@
+{
+	"basicdetails":{
+		"image":"Desert.jpg",
+		"name":"vineetha",
+		"email":"vineetha.pulipati@gmail.com",
+		"phone":"988888888",
+		"address":"3/13brodiepet,guntur"
+	},
+	"education":[
+		{
+			"course":"btech",
+			"branch":"cse",
+			"college":"vignan"
+		},
+		{
+			"course":"inter(mpc)",
+			"college":"sri chaitanya"
+		},
+		{
+			"school":"sri chaitanya techno",
+			"branch":"lakshmipuram",
+			"cgpa":"9.8"
+		}
+	],
+	"technicaldetails":[
+		{
+			"name":"operating systems",
+			"contents":"linux,windows,MAC"
+		},
+		{
+			"name":"programming languages",
+			"contents":"c,c++,java,python"
+		}	
+	],
+	"carrerobjectives":{
+		"c":"i will give my complete services with respect to the time and work in developing our company"
+	},
+	"achievements":[
+	"got second prize in mime act",
+	"participated in many competitive exams and won prizes"
+	],
+	"description":{
+		"d":"i here decalre tat all above mentioned are true"
+	}
+
+}

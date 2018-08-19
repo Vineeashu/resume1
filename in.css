@@ -1,0 +1,153 @@
+.main{
+	border: 2px solid #000;
+	margin: 10px;
+	display: flex;
+	flex-wrap:wrap;
+}
+.left{
+	flex:1;
+	background-color:pink;
+	border: 2px solid #000;
+	margin: 2px;
+	flex-wrap: wrap;
+}
+.right{
+	flex:3;
+	background-color: lightblue;
+	border: 2px solid #123;
+	flex-wrap: wrap;
+}
+#b{
+	color: green;
+	font-size:20px;
+	font-style: italic;
+
+}
+.first{
+	border:2px solid #000;
+	margin:2px;
+	display:flex;
+	flex-wrap: wrap;
+}
+img{
+	width: 200px;
+	border-radius: 20px;
+}
+table,td,tr{
+	border:2px solid #000;
+	background-color: lightgreen;
+	border-collapse: collapse;
+
+}
+@media only screen and (max-width: 480px){
+	.main{
+	border: 2px solid #000;
+	margin: 10px;
+	display: flex;
+	flex-wrap:wrap;
+}
+.left{
+	flex:1;
+	background-color:red;
+	border: 2px solid #000;
+	margin: 2px;
+	flex-wrap: wrap;
+}
+.right{
+	flex:3;
+	background-color:lightblue;
+	border: 2px solid #123;
+	flex-wrap: wrap;
+}
+.first{
+	border:2px solid #000;
+	margin:2px;
+	display:flex;
+	font-size: 20px;
+	flex-direction: column;
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+.main{
+	border: 2px solid #000;
+	margin: 2px;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+}
+.left{
+	flex:1;
+	background-color:yellow;
+	border: 2px solid #000;
+	margin: 2px;
+	flex-wrap: wrap;
+}
+.right{
+	flex:3;
+	background-color: orange;
+	border: 2px solid #123;
+	flex-wrap: wrap;
+}
+.first{
+	border:2px solid #000;
+	margin:2px;
+	display:flex;
+	flex-direction: column;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+.main{
+	border: 2px solid #000;
+	margin: 2px;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+}
+.left{
+	flex:1;
+	background-color:blue;
+	border: 2px solid #000;
+	margin: 2px;
+	flex-wrap: wrap;
+}
+.right{
+	flex:3;
+	background-color:red;
+	border: 2px solid #123;
+	flex-wrap: wrap;
+}
+.first{
+	border:2px solid #000;
+	margin:2px;
+	display:flex;
+	flex-direction: column;
+}
+}
+@media only screen and (min-width: 780px) and (max-width: 1280px){
+.main{
+	border: 2px solid #000;
+	margin: 2px;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+}
+.left{
+	flex:1;
+	background-color:green;
+	border: 2px solid #000;
+	margin: 2px;
+	flex-wrap: wrap;
+}
+.right{
+	flex:3;
+	background-color: grey;
+	border: 2px solid #123;
+	flex-wrap: wrap;
+}
+.first{
+	border:2px solid #000;
+	margin:2px;
+	display:flex;
+	flex-direction: column;
+}
+}
